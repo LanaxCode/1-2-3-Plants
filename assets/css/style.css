@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Fredericka';
+    src: url('../fonts/FrederickatheGreat-Regular.ttf');
+}
+body {
+    margin: 0;
+
+}
+body p{
+    font-size: 12px;
+}
+#plant_img{
+    background-image: url('../img/plants.jpg');
+    /* height: 100vh; */
+}
+p {
+    font-family: 'Open-Sans';
+}
+.plants_header{
+    font-family: 'Fredericka';
+    color: white;
+    padding:  10px 0 0 80px;
+}
+.welcome{
+    width: 250px;
+
+    color: white;
+    text-align: center;
+    margin: 200px auto;
+    padding: 30px;
+
+}
+
+.welcome h2 {
+    padding: 10px 0;
+    font-family: 'Fredericka';
+
+}
+
+
+.welcome a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-family: 'Open-Sans';
+    color: white;
+}
+
+.welcome a:hover{
+    background-color: white;
+    color: black;
+}
+
+section nav {
+    text-align: right;
+    padding: 0 50px 40px 0;
+    font-family: 'Open-Sans';
+
+}
+
+section nav a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.711);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+.middle{
+    text-align: center;
+    padding: 30px;
+}
+
+.middle h2{
+    padding-bottom: 20px;
+}
+.middle article{
+    display: inline-block;
+    text-align: center;
+    text-align: center;
+    width: 400px;
+}
+
+
+.contact{
+    border: 1px solid black;
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+
+.find_us{
+    padding-left: 12px;
+    font-family: 'Open-Sans';
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: rgb(54, 54, 54);
+
+}
+
+footer nav{
+    text-align: right;
+    padding: 0 5px 5px 0;
+    font-family: 'Open-Sans';
+    font-size: 11px; 
+}
+
+footer nav a {
+    padding-right: 10px;
+}
+
+footer p{
+    width: 400px;
+    color: white;
+    padding: 15px 0 0 12px;
+    margin-bottom: 20px;
+}
+
+footer div a {
+    display: inline-block;;
+    margin: 0 0 0 12px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+footer div a:hover{
+    background-color: white;
+    color: black;
+}
